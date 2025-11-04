@@ -33,7 +33,21 @@ body {
 }
 
 h1 {
+  font-size: 1.8em;
+  color: var(--cor-principal);
   margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--cor-principal);
+  width: 100%;
+
+}
+
+label {
+    display: block; /* Label ocupando a própria linha */
+    color: var(--cor-principal);
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 select {
@@ -45,6 +59,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 15px;
+  border: 2px solid var(--cor-principal);
 }
 
 th, td {
@@ -53,6 +68,9 @@ th, td {
 }
 
 th {
-  background-color: #f0f0f0;
+  background-color: var(--cor-principal);
+  color: white;
+  border: none;
+  font-weight: bold;
 }
 
