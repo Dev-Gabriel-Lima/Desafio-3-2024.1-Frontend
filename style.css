@@ -1,6 +1,35 @@
+:root {
+    --cor-principal: #FF8C00; /* Laranja da EngNet (ou quase) */
+    --cor-fundo: #FFFFFF;
+    --cor-texto: #333;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+.container-principal {
+    /* Define uma largura máxima para o conteúdo e centraliza (ou quase) */
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    /* Usando Flexbox para centralizar tudo verticalmente no container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    
+    text-align: center;
 }
 
 h1 {
